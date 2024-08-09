@@ -1,0 +1,27 @@
+
+    <div class="container">
+        <%- include("partials/header.ejs") %>    
+        <section>
+            <div class="content1">
+                <div class="box1">
+                    <h2>Welcome To Book Bliss</h2>
+                 
+                    <p class="para">"Welcome to a place where every book is a new adventure waiting to be discovered."</p>
+                 
+                    <div class="btn-div">
+                        <button class="btn" onclick="window.location.href='/login'">Login</button>
+                        <p>OR</p>
+                        <button class="btn" onclick="window.location.href='/register'">Go to Register</button>
+                    </div>
+                </div>
+                <div class="box2">
+                    <img id="img1" src="../images/image1.jpg" height="200" alt="bookimage">
+                    <img id="img2" src="../images/image2.jpg" height="205" alt="bookimage">
+                    <img id="img3" src="../images/image3.jpg" height="100" alt="bookimage">
+                    <img id="img4" src="../images/image4.jpg" height="100" alt="bookimage">
+                    <img id="img5" src="../images/image5.jpg" height="100" alt="bookimage">
+                </div>
+            </div>
+        </section>
+        <%- include("partials/footer.ejs") %>
+    </div>

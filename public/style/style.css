@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(82, 34, 88);
+    position: relative;
+    padding: 10px;
+}
+ header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 10%;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding:10px 50px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li :hover {
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: rgb(198, 60, 81);
+  color: white;
+}
+.content1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 60%;
+    background-color: rgb(140, 48, 97);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.content1 .box1 {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(140, 48, 97);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.content1 .box2 {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(198, 60, 81);
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+.box2 img {
+    border: 5px solid white;
+  
+}
+footer{
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+}
+form {
+    width: 90%; 
+    height: 100%;
+    margin: 0 auto; 
+    padding: 10px 30px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left; 
+  }
+  
+  input[type="email"], input[type="password"] ,input[type="text"]{
+    width: calc(100% - 10px);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-radius: 3px;
+    text-align: left; 
+    box-sizing: border-box; 
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+  }
+  
+ button {
+    width: 50%;
+    padding: 8px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    text-align: center;
+    margin:  0;
+  }
+  .content2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(82, 34, 88);
+    padding: 10px;
+    overflow-y: auto;
+  }
+  .content2 h1{
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 20px;
+  }
+  .book-shelf{
+    padding: 30px;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(140, 48, 97);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-auto-rows: auto; 
+    gap: 15px; 
+    overflow-y: auto;
+  }
+  .item{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(198, 60, 81);
+    text-align: center;
+  }
+  .item img {
+    width: 200px;
+    height: 250px;
+  }
+  .item p {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+  }
+  .item .cart-btn {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .content3 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(82, 34, 88);
+    position: relative;
+    
+  }
+  .register {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(198, 60, 81);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+  }
+
+  .content4 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(82, 34, 88);
+    position: relative;
+    
+  }
+  .login {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(198, 60, 81);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .box1 .para{
+    /* width: 400px; */
+    text-align: center;
+    margin-bottom:10px ;
+  }
+  .box1 .author {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .box1 h2{
+    margin-bottom: 20px;
+  }
+  .box1 .btn-div {
+    margin-top: 50px;
+  }
+  .btn-div p {
+    margin:10px 0;
+  }
+
+  .content5 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(82, 34, 88);
+    position: relative;
+    
+  }
+  .one-book {
+    width: 500px;
+    height: 480px;
+    background-color: rgb(198, 60, 81);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+  .book-one{
+    text-align: center;
+  }
+  .book-one img{
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+  }
+  .book-one #desc {
+    margin-top: 20px;
+    text-align: left;
+  }
+
+ .content7 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(82, 34, 88);
+  position: relative;
+  
+}
+.contact {
+  width: 500px;
+  height: 300px;
+  background-color: rgb(198, 60, 81);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
